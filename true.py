@@ -1,18 +1,16 @@
 import pandas as pd
 
 data = {
-    'Name': ['Alice', 'Bob', 'Charlie'],
-    'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
+    
 }
 df = pd.DataFrame(data)
 
 def display_menu():
     print("\nВыберите действие:")
-    print("1. Вывести весь дата сет")
-    print("2. Вывести конкретную строку по индексу")
-    print("3. Вывести столбец по индексу")
-    print("4. Вывести ячейку по индексу")
+    print("1. Вывести")
+    print("2. Вывести конкретную строку")
+    print("3. Вывести столбец")
+    print("4. Вывести ячейку")
     print("0. Выход")
 
 def main():
@@ -68,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    блэк бокс имбуля
